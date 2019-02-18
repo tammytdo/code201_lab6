@@ -133,4 +133,4 @@ CapHill.render = function() {
 };
 
 CapHill.calculate_cookies_sold_each_hour();
-CapHill.render();
+CapHill.render(); 
