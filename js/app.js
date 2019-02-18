@@ -279,3 +279,20 @@ SeattleCenter.render = function() {
 
 SeattleCenter.calculate_cookies_sold_each_hour();
 SeattleCenter.render();
+
+// =====================================================================
+var Store = function(min_cust, max_cust, avg_cookies_per_customer, store_name, store_open, store_close, cookies_sold_each_hour) {
+  this.min_cust = min_cust;
+  this.max_cust = max_cust;
+  this.avg_cookies_per_customer = avg_cookies_per_customer;
+  this.store_name = store_name;
+  this.store_open = 6;
+  this.store_close = 20;
+  this.cookies_sold_each_hour = cookies_sold_each_hour;
+};
+
+firstAndPike	23	65	6.3
+seaTac Airport	3	24	1.2
+seattleCenter	11	38	3.7
+capHill	20	38	2.3
+var alki = new Store(2, 16, 4.6, 'Alki', 6, 20, []);
