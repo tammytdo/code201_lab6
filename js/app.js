@@ -286,13 +286,13 @@ var Store = function(min_cust, max_cust, avg_cookies_per_customer, store_name, s
   this.max_cust = max_cust;
   this.avg_cookies_per_customer = avg_cookies_per_customer;
   this.store_name = store_name;
-  this.store_open = 6;
-  this.store_close = 20;
+  this.store_open = store_open;
+  this.store_close = store_close;
   this.cookies_sold_each_hour = cookies_sold_each_hour;
 };
 
-firstAndPike	23	65	6.3
-seaTac Airport	3	24	1.2
-seattleCenter	11	38	3.7
-capHill	20	38	2.3
+var firstAndPike = new Store(23, 65, 6.3, '1st & Pike', 6, 20, []);
+var seaTac = new Store(3, 24, 1.2, 'SeaTac Airport', 6, 20, []);
+var seattleCenter	= new Store(11, 38, 3.7, 'Seattle Center', 6, 20, []);
+var capHill	= new Store(20, 38, 2.3, 'Capitol Hill', 6, 20, []);
 var alki = new Store(2, 16, 4.6, 'Alki', 6, 20, []);
