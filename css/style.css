@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(rgba(11, 139, 199, 0.959), rgba(11, 139, 199, 0.171), rgba(26, 173, 241, 0.24));
+    background-color: rgba(11, 139, 199, 0.959);
     color : brown;
 }
 
@@ -14,4 +14,8 @@ h1 {
 
 h2, h3 {
     color : rgb(66, 37, 4);
+}
+
+table {
+    color : white;
 }
