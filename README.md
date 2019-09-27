@@ -19,7 +19,5 @@ This adaptable program allows admins to add and remove locations from the daily 
 HTML5, CSS3, JavaScript
 
 ## Change Log
-<!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
-
-01-01-2001 4:59pm - Added functionality to add and delete some things.
--->
+2.10.2019 - First draft 
+09.27.2019 - Reformat app.js file
